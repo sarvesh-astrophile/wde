@@ -1,0 +1,25 @@
+@import url('pilcrow-rounded.css');
+
+
+.navflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-links-flex {
+    
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    font-family: 'PilcrowRounded-Regular';
+    list-style: none;
+    font-weight: 300;
+
+}
+
+#nav-links li {
+    padding: 0px 10px;
+}
