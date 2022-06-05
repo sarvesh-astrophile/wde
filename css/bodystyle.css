@@ -1,5 +1,9 @@
 @import url('pilcrow-rounded.css');
+@import url('sf-pro-display.css');
 
+body {
+    margin: 0px;
+}
 
 .navflex {
     display: flex;
@@ -11,15 +15,69 @@
     
 }
 
+nav {
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    margin: 0px auto;
+}
+
+
 #nav-links {
     display: flex;
     flex-direction: row;
-    font-family: 'PilcrowRounded-Regular';
+    font-family: 'PilcrowRounded-Medium';
     list-style: none;
-    font-weight: 300;
+    align-items: flex-start;
 
+    max-width: 1024px;
+}
+
+#logo {
+    margin: 0px 10px;
 }
 
 #nav-links li {
     padding: 0px 10px;
+}
+
+#headding {
+    margin: 40px 0px;
+}
+
+#headding h1 {
+    font-family: 'PilcrowRounded-Regular';
+    font-size: xx-large;
+}
+
+#headding p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.learn-more, .learn-more a {
+    background-color: #E8F2FF;
+    color: #0075FF;
+    padding: 8px 26px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#right-arrow {
+    width: 1.5em;
+    margin-left: 5px ;
+}
+
+.learn-more-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#headding-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
