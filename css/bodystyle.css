@@ -1,4 +1,4 @@
-@import url('pilcrow-rounded.css');
+@import url('../WEB/css/pilcrow-rounded.css');
 @import url('sf-pro-display.css');
 
 body {
@@ -13,6 +13,10 @@ body {
 
 .nav-links-flex {
     
+}
+
+#arrow-learn-more {
+    margin-left: 5px;
 }
 
 nav {
@@ -71,7 +75,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #headding-flex {
